@@ -1,0 +1,101 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.profil h3 {}
+
+.img-profil {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #EAE0D5;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 20;
+}
+
+.img-profil img {
+    height: 100%;
+}
+
+.App-header {
+    background-color: #EAE0D5;
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+  justify-content: center; */
+    font-size: calc(10px + 2vmin);
+    color: white;
+    position: relative;
+}
+
+.head {
+    padding: 30px 10%;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.desc {
+    /* border: 2px solid black; */
+    text-align: left;
+    color: #0A0908;
+}
+
+.desc h2 {
+    /* color: black; */
+}
+
+.parcours {
+    margin: 0 16%;
+    /* height: calc(40vh - 40px); */
+    padding: 70px;
+    background-color: #0A0908;
+    position: relative;
+    top: -70px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+}
+
+cite {
+    font-size: 20px;
+    color: #EAE0D5;
+}
+
+cite::before {
+    content: "'' ";
+}
+
+cite::after {
+    content: " ''";
+}
+
+.App-link {
+    color: #131311;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

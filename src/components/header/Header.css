@@ -1,0 +1,54 @@
+.navfixed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 60px;
+    background-color: #0A0908;
+    color: white;
+}
+
+.navfixed .burger i {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    padding: 0;
+    position: relative;
+    top: 7px;
+}
+
+.navbar ul li {
+    /* margin-top: 6px; */
+    cursor: pointer;
+    transition: 300ms linear;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar ul li:hover {
+    transform: scale(1.1);
+    transition: 300ms linear;
+    color: #C6AC8F;
+}
+
+.profil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}

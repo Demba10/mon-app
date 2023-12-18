@@ -1,0 +1,56 @@
+body {
+    background-color: var(--second-color);
+}
+.container {
+    padding: 30px;
+}
+/* Style de sous-titre */
+.titre-section {
+    margin: 20px 0;
+}
+.sous-titre {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+.souligne {
+    display: flex;
+    justify-content: center;
+}
+.trait {
+    width: 50px;
+    height: 3px;
+    background-color: var(--third-color);
+}
+/* Fin du style de sous-titre */
+.container .card {
+    margin: 14px 0;
+    border: 4px solid var(--base-color);
+    overflow: hidden;
+    border-radius: 20px;
+}
+.container .title {
+    padding: 20px;
+    background-color: var(--third-color);
+    color: var(--base-color);
+    font-weight: 500;
+}
+.title h5 {
+    font-weight: 600;
+}
+.container .title button {
+    background-color: var(--third-color);
+    background-color: var(--base-color);
+    border: 0;
+}
+.img {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.img img {
+    height: 100%;
+}
